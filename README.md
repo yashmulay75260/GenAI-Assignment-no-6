@@ -58,7 +58,7 @@ cp .env.example .env
 # edit .env and set GOOGLE_API_KEY=your_key_here
 ```
 
-Get a Gemini API key from https://aistudio.google.com/app/apikey.
+Get Gemini API key from https://aistudio.google.com/app/apikey.
 
 ## Run
 
