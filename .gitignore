@@ -1,0 +1,54 @@
+# Python bytecode and virtual environments
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+ENV/
+env/
+
+# Environment and secrets
+.env
+.env.*
+*.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Streamlit / app secrets
+.streamlit/
+.streamlit/secrets.toml
+
+# Editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Python packaging / build outputs
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+
+# Logs and temp files
+*.log
+*.tmp
+*.bak
+
+# Data files that may be sensitive or large
+*.sqlite3
+*.db
+*.csv
+*.xlsx
+*.json
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Local system state
+coverage/
+htmlcov/
